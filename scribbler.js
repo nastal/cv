@@ -12,17 +12,14 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `sh about-me.sh
-            
-            - share git repo with teammates
-            - write and follow coding guides and follow PSR
-            - set up dev 'production-like' environment via docker-compose
-            - use TDD
-            - developer is responsible for feature delivery, like value to customer delivery
-            - set-up CI/CD and Zero downtime deployments
-            - usual releases
-            - 12factors
-            - team code review`;
+  var txt = `sh about-me.sh                                                              
+
+Full-stack engineer with over 10 years of experience in web development,
+managing all aspects of the development process. 
+Worked on 20+ projects and solved complex business problems in various industries including
+logistics, fintech, eCommerce, education, video streaming and high-tech startups. 
+Consistently save costs while increasing profits. 
+`;
   var speed = 30;
 
   function typeItOut () {
