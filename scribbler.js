@@ -12,13 +12,11 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `sh about-me.sh                                                              
+  var txt = `sh about-me.sh
 
-Full-stack engineer with over 10 years of experience in web development,
-managing all aspects of the development process. 
-Worked on 20+ projects and solved complex business problems in various industries including
-logistics, fintech, eCommerce, education, video streaming and high-tech startups. 
-Consistently save costs while increasing profits. 
+Backend engineer with 10+ years building systems that process millions of transactions daily.
+Worked across logistics, fintech, and fleet management.
+Focus on scalability, reliability, and solving real problems.
 `;
   var speed = 30;
 
